@@ -1,8 +1,9 @@
 Name: workarounds-for-buildroot-breakages
 Provides: python(abi) = 2.7
+Provides:	freetype2 = 2.1.10
 Requires: python-devel
 Version: 0
-Release: 0
+Release: 1
 Summary: Workarounds for buildroot breakages
 Group: System/Configuration/Packaging
 License: Public Domain
