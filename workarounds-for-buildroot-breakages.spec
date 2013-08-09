@@ -1,13 +1,18 @@
-Name: workarounds-for-buildroot-breakages
-Provides: python(abi) = 2.7
+Name:		workarounds-for-buildroot-breakages
+
+Version:	0
+Release:	2
+Summary:	Workarounds for buildroot breakages
+Group:		System/Configuration/Packaging
+License:	Public Domain
+Provides:	python(abi) = 2.7
 Provides:	freetype2 = 2.1.10
-Requires: python-devel
-Version: 0
-Release: 1
-Summary: Workarounds for buildroot breakages
-Group: System/Configuration/Packaging
-License: Public Domain
-BuildArch: noarch
+Requires:	python-devel
+%ifarch %{ix86}
+Provides:	libpthread.so.0.9.33
+%endif
+
+BuildArch:	noarch
 
 %description
 Workarounds for buildroot breakages
