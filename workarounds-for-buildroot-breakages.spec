@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	6
+Release:	7
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
