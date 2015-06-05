@@ -1,16 +1,15 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	9
+Release:	10
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
-Provides:	python(abi) = 2.7
-Provides:	freetype2 = 2.1.10
-Requires:	python-devel
-%ifarch %{ix86}
-Provides:	libpthread.so.0.9.33
-%endif
+
+Provides:	devel(libLLVM-3.7)
+Provides:	devel(libLLVM-3.6)
+Provides:	devel(libLLVM-3.7(64bit))
+Provides:	devel(libLLVM-3.6(64bit))
 
 BuildArch:	noarch
 
