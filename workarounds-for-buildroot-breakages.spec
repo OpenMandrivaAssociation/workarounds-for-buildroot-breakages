@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	10
+Release:	11
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -10,6 +10,8 @@ Provides:	devel(libLLVM-3.7)
 Provides:	devel(libLLVM-3.6)
 Provides:	devel(libLLVM-3.7(64bit))
 Provides:	devel(libLLVM-3.6(64bit))
+Provides:	libLLVM-3.7.so()(64bit)
+Provides:	libLLVM-3.7.so()
 
 BuildArch:	noarch
 
