@@ -1,12 +1,13 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	12
+Release:	13
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
+Provides: python(abi) = 3.4
 
 %description
 Workarounds for buildroot breakages
