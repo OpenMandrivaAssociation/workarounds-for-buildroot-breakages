@@ -7,7 +7,7 @@ Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-Provides: devel(libLLVMLanaiInstPrinter(64bit)))
+Provides: devel(libLLVMLanaiInstPrinter(64bit))
 
 %description
 Workarounds for buildroot breakages
