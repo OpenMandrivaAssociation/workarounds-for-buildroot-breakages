@@ -1,13 +1,13 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	15
+Release:	16
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-Provides: devel(libLLVMLanaiInstPrinter(64bit))
+Provides:	devel(libLLVMRISCVInfo(64bit))
 
 %description
 Workarounds for buildroot breakages
