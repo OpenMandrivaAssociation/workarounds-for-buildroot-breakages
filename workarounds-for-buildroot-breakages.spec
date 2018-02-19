@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	18
+Release:	19
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -13,7 +13,6 @@ Provides:	devel(libLLVMRISCVDesc(64bit))
 Provides:	devel(libLLVMRISCVInfo)
 Provides:	devel(libLLVMRISCVCodeGen)
 Provides:	devel(libLLVMRISCVDesc)
-Provides: pinentry-1.1.0-2
 
 %description
 Workarounds for buildroot breakages
