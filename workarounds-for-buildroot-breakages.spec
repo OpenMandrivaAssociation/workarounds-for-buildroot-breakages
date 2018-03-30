@@ -7,12 +7,9 @@ Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-Provides:	devel(libLLVMRISCVInfo(64bit))
-Provides:	devel(libLLVMRISCVCodeGen(64bit))
-Provides:	devel(libLLVMRISCVDesc(64bit))
-Provides:	devel(libLLVMRISCVInfo)
-Provides:	devel(libLLVMRISCVCodeGen)
-Provides:	devel(libLLVMRISCVDesc)
+%ifarch %{arm}
+Provides:	perl(lib)
+%endif
 
 %description
 Workarounds for buildroot breakages
