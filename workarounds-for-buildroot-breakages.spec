@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	19
+Release:	20
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -10,6 +10,7 @@ BuildArch:	noarch
 %ifarch %{arm}
 Provides:	perl(lib)
 %endif
+Provides:	cmake-filesystem
 
 %description
 Workarounds for buildroot breakages
