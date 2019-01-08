@@ -1,13 +1,13 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	23
+Release:	24
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-Provides:	cmake-filesystem(aarch-64)
+Provides:	xdg-desktop-portal-implementation
 
 %description
 Workarounds for buildroot breakages
