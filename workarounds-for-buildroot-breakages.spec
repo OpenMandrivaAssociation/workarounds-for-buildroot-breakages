@@ -1,19 +1,14 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	25
+Release:	26
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-%if "%{_lib}" == "lib64"
-Requires:	lib64double-conversion3
-Provides:	libdouble-conversion.so.3.0.0()(64bit)
-%else
-Requires:	libdouble-conversion3
-Provides:	libdouble-conversion.so.3.0.0
-%endif
+Provides:	java-headless = 1.11.0-1
+Requires:	java-11-openjdk
 
 %description
 Workarounds for buildroot breakages
