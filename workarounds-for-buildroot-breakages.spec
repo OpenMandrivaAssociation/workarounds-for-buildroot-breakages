@@ -8,7 +8,7 @@ License:	Public Domain
 
 %ifarch %{riscv}
 # Make basesystem happy
-Provides:	kernel
+Provides:	kernel = 5.2.14-1
 Provides:	bootloader
 Provides:	pinentry
 %endif
