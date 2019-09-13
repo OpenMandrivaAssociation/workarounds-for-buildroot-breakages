@@ -6,8 +6,6 @@ Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
-BuildArch:	noarch
-
 %ifarch %{riscv}
 # Make basesystem happy
 Provides:	kernel
