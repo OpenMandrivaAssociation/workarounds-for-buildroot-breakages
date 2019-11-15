@@ -1,10 +1,14 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	27
+Release:	28
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
+
+# Crosscompiler breakage...
+Provides:	libgcc_s.so.1(GCC_4.5.0)(64bit)
+Provides:	libgcc_s.so.1(GCC_3.5)
 
 %ifarch %{riscv}
 # Make basesystem happy
