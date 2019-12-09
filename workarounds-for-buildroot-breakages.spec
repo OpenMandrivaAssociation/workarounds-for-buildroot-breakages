@@ -1,14 +1,14 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	28
+Release:	29
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
-# Crosscompiler breakage...
-Provides:	libgcc_s.so.1(GCC_4.5.0)(64bit)
-Provides:	libgcc_s.so.1(GCC_3.5)
+# libstdc++ requiring python(abi) = 3.7 because of
+# gdb scripts is very messed up...
+Provides:	python(abi) = 3.8
 
 %ifarch %{riscv}
 # Make basesystem happy
