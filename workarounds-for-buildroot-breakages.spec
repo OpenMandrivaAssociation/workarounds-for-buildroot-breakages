@@ -1,14 +1,18 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	29
+Release:	30
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 # libstdc++ requiring python(abi) = 3.7 because of
 # gdb scripts is very messed up...
-Provides:	python(abi) = 3.8
+Provides:	python(abi) = 3.7
+Provides:	libpython3.7m.so.1.0
+Provides:	libpython3.7m.so.1.0()(64bit)
+
+BuildArch:	noarch
 
 %ifarch %{riscv}
 # Make basesystem happy
