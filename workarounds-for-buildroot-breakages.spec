@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	32
+Release:	33
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -11,8 +11,6 @@ License:	Public Domain
 Provides:	python(abi) = 3.7
 Provides:	libpython3.7m.so.1.0
 Provides:	libpython3.7m.so.1.0()(64bit)
-#Provides:	/usr/bin/bash
-#Requires:	bash
 
 BuildArch:	noarch
 
