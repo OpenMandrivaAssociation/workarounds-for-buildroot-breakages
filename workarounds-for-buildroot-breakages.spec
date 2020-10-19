@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	35
+Release:	36
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -16,6 +16,8 @@ Provides:	kernel = 5.2.14-1
 Provides:	bootloader
 Provides:	pinentry
 %endif
+
+Provides:	python(abi) = 3.8
 
 %description
 Workarounds for buildroot breakages
