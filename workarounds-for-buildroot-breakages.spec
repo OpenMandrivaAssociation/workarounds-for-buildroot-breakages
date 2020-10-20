@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	38
+Release:	39
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -25,6 +25,8 @@ Provides:	libpython3.8.so.1.0()(64bit)
 Provides:	libpython3.8.so.1
 Provides:	libpython3.8.so.1.0
 %endif
+Provides:	python3.8dist(pyparsing) = 2.4.7-1
+Provides:	python3.8dist(six) = 1.15.0-1
 
 %description
 Workarounds for buildroot breakages
