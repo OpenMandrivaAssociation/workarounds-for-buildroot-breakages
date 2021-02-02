@@ -1,14 +1,15 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	40
+Release:	41
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
 
-Provides:	xdg-desktop-portal-implementation
+Provides:	locales
+Provides:	locales-en
 
 %ifarch %{riscv}
 # Make basesystem happy
