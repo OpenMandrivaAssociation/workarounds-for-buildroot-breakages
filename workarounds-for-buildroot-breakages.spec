@@ -1,15 +1,12 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	41
+Release:	42
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
 
 BuildArch:	noarch
-
-Provides:	locales
-Provides:	locales-en
 
 %ifarch %{riscv}
 # Make basesystem happy
