@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	45
+Release:	46
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -15,11 +15,9 @@ Provides:	bootloader
 Provides:	pinentry
 %endif
 
-%ifarch %{aarch64}
-Provides:	libomptarget.so()(64bit)
-Provides:	libomptarget.so(VERS1.0)(64bit)
-Provides:	lib64gpuruntime = 14.0.3-2
-%endif
+Requires:	coreutils
+Provides:	/bin/true
+Provides:	/bin/false
 
 %description
 Workarounds for buildroot breakages
