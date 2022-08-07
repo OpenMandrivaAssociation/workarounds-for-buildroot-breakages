@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	46
+Release:	47
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -18,6 +18,7 @@ Provides:	pinentry
 Requires:	coreutils
 Provides:	/bin/true
 Provides:	/bin/false
+Provides:	openlitespeed
 
 %description
 Workarounds for buildroot breakages
