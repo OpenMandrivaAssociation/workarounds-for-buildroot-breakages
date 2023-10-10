@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	49
+Release:	50
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -20,6 +20,7 @@ Provides:	/bin/true
 Provides:	/bin/false
 Provides:	openlitespeed
 Provides:	xdg-desktop-portal-implementation
+Provides:	%{_lib}gpuruntime
 
 %description
 Workarounds for buildroot breakages
