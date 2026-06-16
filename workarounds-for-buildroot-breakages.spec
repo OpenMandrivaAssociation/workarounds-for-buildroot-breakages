@@ -1,7 +1,7 @@
 Name:		workarounds-for-buildroot-breakages
 
 Version:	0
-Release:	51
+Release:	52
 Summary:	Workarounds for buildroot breakages
 Group:		System/Configuration/Packaging
 License:	Public Domain
@@ -22,6 +22,7 @@ Provides:	openlitespeed
 Provides:	xdg-desktop-portal-implementation
 Provides:	%{_lib}gpuruntime
 Provides:	group(mock)
+Provides:	libvpx.so.11()(64bit)
 
 %description
 Workarounds for buildroot breakages
